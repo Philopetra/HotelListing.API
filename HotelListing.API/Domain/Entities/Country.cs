@@ -8,5 +8,5 @@ public class Country : Entity, IAuditable
 	public DateTimeOffset UpdatedAt { get; }
 
 	//Relational Props
-	public virtual IList<Hotel> Hotels { get;}
+	public virtual IList<Hotel>? Hotels { get;}
 }
