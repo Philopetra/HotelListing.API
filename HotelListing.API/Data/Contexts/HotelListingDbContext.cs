@@ -14,7 +14,7 @@ public class HotelListingDbContext : DbContext
 	public DbSet<Hotel> Hotels { get; set; }
 	public DbSet<Country> Countries { get; set; }
 
-
+	// Seeding of Data
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
 		base.OnModelCreating(modelBuilder);
